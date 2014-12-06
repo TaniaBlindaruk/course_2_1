@@ -1,0 +1,217 @@
+html{
+    background-image: url("../img/background/images.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0 auto;
+    width: 1000px;
+    /*height: 500px;*/
+    background-color: #393939;
+    font-size: 14px;
+}
+.header{
+    width: 100%;
+    /*background-color: #00b3ff;*/
+    height: 140px;
+    position: relative;
+}
+.header .top_line{
+    position: absolute;
+    height: 5px;
+    background-color: RGBA(255,255,255,0.5);
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.center_line{
+    width: 100%;
+    height: 100%;
+    /*background-color: aqua;*/
+}
+.header  .left_content{
+
+    width: 270px;
+    padding: 5px 20px;
+    background-color: #19449b;
+    position: relative;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    background-image: url("../img/header/bac_top_left.png");
+    height: 130px;
+    float: left;
+}
+.speedy{
+    display: block;
+    font-size: 54px;
+    font-family: "Planet_Kosmos";
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.157);
+    margin-top: -10px;
+    margin: 0 auto;
+}
+.cars{
+    display: block;
+    font-size: 54px;
+    font-family: "Planet_Kosmos";
+    color: rgb(248, 193, 58);
+    text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.157);
+    margin:  0 auto;
+    margin-left: 50px;
+    margin-top: -22px;
+
+}
+.auto_port{
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9em;
+    text-align: center;
+}
+.add_z{
+    background-color: RGbA(0,0,0,0.5);
+    height: 30px;
+    padding: 5px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+}
+.header .right_content{
+    width: 550px;
+    height: 100%;
+    background-image: url("../img/header/header_top_right_bac.png");
+    float: right;
+    position: relative;
+}
+.header  .right_top{
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+.header .right_content img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -234px;
+    margin-top: -30px;
+
+}
+.wrapper{
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+    /*height: 100px;*/
+    background-color: darkgreen;
+    top:-15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.center_content{
+    position: absolute;
+    z-index: 50;
+    left: 310px;
+    right: 550px;
+    height: 100%;
+    background-image: url("../img/header/header_center.png");
+    background-repeat: repeat-x;
+    border-radius: 0 0 5px 5px;
+
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.header .center_content ul{
+    list-style: none;
+    margin: 5px 5px 0 10px;
+    padding: 0;
+}
+.header .center_content  li:last-child{
+    position: absolute;
+    bottom: 0px;
+    background-color: RGBA(0,0,0,0.5);
+    height: 35px;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.header .center_content li a{
+    color: #000000;
+
+}
+.header .right_content .bottom_line{
+    background-color: RGBA(0,0,0,0.5);
+    height: 40px;
+    line-height: 24px;
+    color: #fff;
+}
+.header .right_content .bottom_line ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: block;
+    margin-right: 45px;
+}
+.header .right_content .bottom_line li{
+    display: inline;
+}
+.header .right_content .bottom_line a{
+    color: #ffffff;
+    margin: 0 10px;
+}
+.header .right_content .bottom_line a.last{
+    margin-right: 0px;
+    text-decoration: none;
+}
+.header .right_content .bottom_line .rss{
+    vertical-align: middle;
+    position: static;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+.wrapper_top_line{
+    height: 60px;
+    width: 100%;
+    background-image: url("../img/wrapper/top_line_wrapper.png");
+    background-repeat: repeat-x;
+
+    position: relative;
+}
+.wrapper_top_line .one_line{
+    display: table;
+}
+.wrapper_top_line .one{
+    display: table-cell;
+    width: 465px;
+    height: 50px;
+    /*background-color: #00b3ff;*/
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 30px;
+}
+.wrapper_top_line .phone{
+    margin-left: 20px;
+    display: block;
+}
+.wrapper_top_line .phone img{
+    vertical-align: sub;
+}
+.wrapper .two{
+    display: table-cell;
+    width: 525px;
+    background-color: RGBA(255,255,255,0.1);
+    height: 60px;
+}
+.wrapper_top_line .bottom_line{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 10px;
+    background-color: RGBA(255,255,255,0.15);
+}
