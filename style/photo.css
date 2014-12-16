@@ -1,0 +1,105 @@
+.photo{
+    width: 100%;
+    height: 600px;
+    /*margin-bottom: 10px;*/
+    /*background-color: #9B4242;*/
+}
+.photo h1{
+    margin: 0;
+    line-height: 50px;
+    background-color: #e9e9e9;
+    text-align:  center;
+}
+.photo .wrapper_photo{
+    width: 100%;
+    height: 550px;
+    /*background-color: #5f90d5;*/
+}
+.photo .wrapper_photo .img{
+    /*height: 100%;*/
+    width: 750px;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 550px;
+    text-align: center;
+    position: relative;
+    float: left;
+    /*display: list-item;*/
+}
+.photo .wrapper_photo .img ul{
+    margin: 0;
+    padding: 0;
+}
+.photo .wrapper_photo .img img{
+    margin: 0;
+    padding: 0;
+    max-width: 750px;
+    max-height: 551px;
+    vertical-align: middle;
+
+}
+.photo .wrapper_photo .img .arrow{
+    position: absolute;
+    /*background: url("../img/arrows_photo.png");*/
+    width: 20px;
+    height: 32px;
+    top: 50%;
+    /*left: 10px;*/
+    margin-top: -10px;
+    cursor: pointer;
+}
+.photo .wrapper_photo .img .left{
+    left: 10px;
+    background: url("../img/arrows_photo.png") 0 -32px;
+}
+.photo .wrapper_photo .img .left:hover{
+    background: url("../img/arrows_photo.png") -20px -32px;
+}
+.photo .wrapper_photo .img .right{
+    right: 10px;
+    background: url("../img/arrows_photo.png") ;
+}
+.photo .wrapper_photo .img .right:hover{
+    right: 10px;
+    background: url("../img/arrows_photo.png") -20px 0 ;
+}
+.photo .wrapper_photo .coment{
+    float: right;
+    width: 220px;
+    padding-right: 10px;
+    /*background: #000000;*/
+    height: 100%;
+    overflow: auto;
+}
+.photo .wrapper_photo .coment ul{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+.photo .wrapper_photo .coment li{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.photo .wrapper_photo .coment ul img{
+    width: 50px;
+}
+.photo .wrapper_photo .coment ul div{
+    width: 140px;
+    padding-left: 10px;
+    /*color: #ffffff;*/
+}
+.photo .wrapper_photo .coment ul .name{
+    display: block;
+    font-weight: bold;
+}
+.photo .wrapper_photo .coment ul .com{
+    font-size: 0.8em;
+}
+.photo .wrapper_photo .coment input{
+    width: 100%;
+}
+.photo .wrapper_photo .coment input::-webkit-input-placeholder {color:#000000;}
+.photo .wrapper_photo .coment input::-moz-placeholder          {color:#000000;}/* Firefox 19+ */
+.photo .wrapper_photo .coment input:-moz-placeholder           {color:#000000;}/* Firefox 18- */
+.photo .wrapper_photo .coment input:-ms-input-placeholder      {color:#000000;}

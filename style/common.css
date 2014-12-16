@@ -3,7 +3,7 @@
 :-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
 :-ms-input-placeholder      {color:#ffffff;}
 html{
-    background-image: url("../img/background/images.jpg");
+    background-image: url("../img/background/back.jpg");
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -110,10 +110,8 @@ body{
     position: relative;
     width: 990px;
     margin: 0 auto;
-    /*height: 100px;*/
-    /*background-color: darkgreen;*/
     top:-15px;
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 10px ;
     overflow: hidden;
 }
 .center_content{
@@ -288,7 +286,6 @@ body{
 }
 .content{
     background-color: #ffffff;
-    border-radius:  0 0 10px 10px ;
     overflow: hidden;
 }
 .content .main{
@@ -402,4 +399,14 @@ body{
 .footer .right{
     float: right;
     margin: 0;
+    margin-right: 20px;
+}
+.red{
+    color:  red;
+}
+.blue{
+    color: #83a9df;
+}
+.logo{
+    text-decoration: none;
 }

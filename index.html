@@ -13,15 +13,19 @@
     <link rel="stylesheet" href="js/vendor/calendar.css" type="text/css"/>
     <link rel="stylesheet" href="style/task3.css" type="text/css"/>
     <link rel="stylesheet" href="style/task4.css" type="text/css"/>
+    <link rel="stylesheet" href="active.css" type="text/css"/>
+    <link rel="stylesheet" href="style/registration.css" type="text/css"/>
 </head>
 <body>
     <div class="header">
         <div class="top_line"></div>
         <div class="center_line">
             <div class="left_content">
+                <a class="logo" href="index.html">
                 <span class="auto_port">Автомобільний портал</span>
                 <span class="speedy">Speedy</span>
                 <span class="cars">Cars</span>
+                </a>
                 <span class="add_z">Добавьте нас в закладки!</span>
             </div>
             <div class="center_content">
@@ -75,7 +79,7 @@
             <div class="main">
                 <ul>
                     <li class="active"><a href="#" target="_blank">на главную</a></li>
-                    <li><a href="#" target="_blank">новости</a></li>
+                    <li><a class="active_click" href="new.html" target="_blank">новости</a></li>
                     <li><a href="#" target="_blank">статьи</a></li>
                     <li><a href="#" target="_blank">тетс-драйвы</a></li>
                     <li><a href="#" target="_blank">новые авто</a></li>
@@ -83,7 +87,7 @@
                     <li><a href="#" target="_blank">автосалоны</a></li>
                     <li><a href="#" target="_blank">б/у авто</a></li>
                     <li><a href="#" target="_blank">автоклуб</a></li>
-                    <li><a href="#" target="_blank">полезности</a></li>
+                    <li><a class="active_click" href="registration.html">регистрация</a></li>
                     <li><a href="#" target="_blank">вход в кабинет</a></li>
                 </ul>
             </div>
@@ -98,7 +102,7 @@
                             <li><a href="#">Каталог автомобилей</a></li>
                             <li><a href="#">Автосалоны</a>
                             <li><a href="#">Краш-тесты автомобилей</a></li>
-                            <li><a  href="#">Фотогалерея</a></li>
+                            <li><a class="active_click"  href="photo.html">Фотогалерея</a></li>
                             <li><a href="#">Новости и акции автосалонов</a></li>
                             <li><a href="#">Автокредитование</a></li>
                             <li><a href="#">Автосправочник</a></li>
@@ -424,7 +428,7 @@
                             <li>
                                 <div class="info">
                                     <span>12.05.2011 12:11</span>
-                                    <h3><a href="#"> Lada Granta. Все подробности </a> </h3>
+                                    <h3><a class="red" href="#"> Lada Granta. Все подробности </a> </h3>
                                     <p>
                                         Вчера автоВаз офичиально представил модель под названиям Granta
                                         По настоящему эпохонально событие для Росийських автопрома - наши
@@ -433,9 +437,9 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="task4_left_info">
+                                <div class="info">
                                     <span>22.03.2011 10:11</span>
-                                    <h3><a href="#">Формула один: накануне схватки </a> </h3>
+                                    <h3><a class="red" href="#">Формула один: накануне схватки </a> </h3>
                                     <p>
                                         В выходные в австралийском Мельбурне стартует новые сезон
                                         Формулы - 1. Будет ли он ещё истереснее чем раньше?
@@ -444,9 +448,9 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="task4_left_info">
+                                <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="red" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -461,7 +465,7 @@
                 </div>
                 <div class="center">
                     <div class="img"></div>
-                    <div>
+                    <div class="first">
                         <div class="title">
                             <h2>Последние из рубрики "Тест драйвы"</h2>
                             <!--<img src="img/wrapper/title_img.png">-->
@@ -474,7 +478,7 @@
                                 <img src="img/wrapper/task4/car1.png"/>
                                 <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="blue" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -487,7 +491,7 @@
                                 <img src="img/wrapper/task4/car2.png"/>
                                 <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="blue" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -500,7 +504,7 @@
                                 <img src="img/wrapper/task4/car3.png"/>
                                 <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="blue" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -516,7 +520,7 @@
                             <h2>Последние из рубрики "Тест драйвы"</h2>
                             <!--<img src="img/wrapper/title_img.png">-->
                             <div class="red_link">
-                                <a  href="#" class="" >Смотреть все</a>»
+                                <a   href="#" class="" >Смотреть все</a>»
                             </div>
                         </div>
                         <ul class="list">
@@ -524,7 +528,7 @@
                                 <img src="img/wrapper/task4/car4.png"/>
                                 <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="blue" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -537,7 +541,7 @@
                                 <img src="img/wrapper/task4/car5.png"/>
                                 <div class="info">
                                     <span>21.03.2011 10:11</span>
-                                    <h3><a href="#"> Honda 2011: четых новых модели </a> </h3>
+                                    <h3><a class="blue" href="#"> Honda 2011: четых новых модели </a> </h3>
                                     <p>
                                         С приходом весны компания Хонда, решила обновить свой модельный ряд.
                                         На минувшей недели компания провела презентацию Хонда,
@@ -557,43 +561,44 @@
             </div>
 
         </div>
-        <div class="footer">
-            <div>
-                <img src="img/footer/footer.png">
-                <ul>
-                    <li>
-                        <a href="#">Мобильная вкрсия</a>|
-                    </li>
-                    <li>
-                        <a href="#">Наше сообщество</a>|
-                    </li>
-                    <li>
-                        <a href="#">Условия использования матераиалов</a>|
-                    </li>
-                    <li>
-                        <a href="#">Обратная связь</a>|
-                    </li>
-                    <li>
-                        <a href="#">Реклама на страницах портала</a>|
-                    </li>
-                    <li>
-                        <a href="#">О компании</a>
-                    </li>
-                </ul>
+
+    </div>
+    <div class="footer">
+        <div>
+            <img src="img/footer/footer.png">
+            <ul>
+                <li>
+                    <a href="#">Мобильная вкрсия</a>|
+                </li>
+                <li>
+                    <a href="#">Наше сообщество</a>|
+                </li>
+                <li>
+                    <a href="#">Условия использования матераиалов</a>|
+                </li>
+                <li>
+                    <a href="#">Обратная связь</a>|
+                </li>
+                <li>
+                    <a href="#">Реклама на страницах портала</a>|
+                </li>
+                <li>
+                    <a href="#">О компании</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div class="left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                    Aliquam fermentum metus at lobortis tincidunt.<br/>
+                    Mauris non lacus blandit, vehicula dui vitae, suscipit tellus.<br/>
+                    Integer varius lorem sed risus vehicula, in porta ipsum ullamcorper.
+                </p>
             </div>
-            <div>
-                <div class="left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
-                        Aliquam fermentum metus at lobortis tincidunt.<br/>
-                        Mauris non lacus blandit, vehicula dui vitae, suscipit tellus.<br/>
-                        Integer varius lorem sed risus vehicula, in porta ipsum ullamcorper.
-                    </p>
-                </div>
-                <div class="header_left right">
-                    <span class="white auto_port">Автомобільний портал</span>
-                    <span class="speedy">Speedy</span>
-                    <span class="cars">Cars</span>
-                </div>
+            <div class="header_left right">
+                <span class="white auto_port">Автомобільний портал</span>
+                <span class="speedy">Speedy</span>
+                <span class="cars">Cars</span>
             </div>
         </div>
     </div>
