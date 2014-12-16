@@ -19,26 +19,28 @@
 
 .task3 .slider{
     margin: 20px 0;
-    height: 210px;
+    /*height: 210px;*/
     position: relative;
 }
 .arrow1{
-    background: url("../img/wrapper/task3/arrow/arrow.png");
-    height: 26px;
-    width: 26px;
+    background: url("../img/wrapper/task3/arrow/arrows.png") ;
+    height: 27px;
+    width: 27px;
     position: absolute;
-    top: 50%;
-    margin-top: -33px;
+    top: 62px;
+    margin-top: -13px;
     left: 0;
+    cursor: pointer;
 }
 .arrow2{
-    background: url("../img/wrapper/task3/arrow/arrow2.png");
-    height: 26px;
-    width: 26px;
+    background: url("../img/wrapper/task3/arrow/arrows.png") -27px 0;
+    height: 28px;
+    width: 28px;
     position: absolute;
-    top: 50%;
-    margin-top: -33px;
+    top: 62px;
+    margin-top: -13px;
     right: 0;
+    cursor: pointer;
 }
 .task3 .slider_img{
     margin-left: 26px;
