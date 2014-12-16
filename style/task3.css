@@ -1,0 +1,72 @@
+.task3 .title{
+    line-height: 35px;
+}
+.task3 .title .red_link{
+    position: absolute;
+    right: 30px;
+}
+.task3_title1, .task3_title2{
+    width: 200px;
+    background-size: 100%;
+    background-image: url("../img/wrapper/task3/title/task3_title1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+    height: 100%;
+    left: 10px;
+
+}
+
+.task3 .slider{
+    margin: 20px 0;
+    height: 210px;
+    position: relative;
+}
+.arrow1{
+    background: url("../img/wrapper/task3/arrow/arrow.png");
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    left: 0;
+}
+.arrow2{
+    background: url("../img/wrapper/task3/arrow/arrow2.png");
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    right: 0;
+}
+.task3 .slider_img{
+    margin-left: 26px;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    /*display: table-row;*/
+}
+.task3 .slider_img  li{
+    display: inline-block;
+    width: 170px;
+    height: 100%;
+    margin: 0 5px;
+    /*display: table-cell;*/
+}
+.carts{
+    margin-top: 20px;
+    position: relative;
+    /*display: table;*/
+}
+.slider_img > li>img{
+    width: 100%;
+    height: 124px;
+}
+.task3_title2{
+    width: 300px;
+    color: #000000;
+}
+.task3_title2>h2{
+    color: #000000;
+}

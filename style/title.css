@@ -1,0 +1,49 @@
+
+
+.title{
+    width: 100%;
+    background-size: 100%;
+    overflow: hidden;
+    height: 42px;
+    position: relative;
+}
+.title h2{
+    font-size: 0.8em;
+    margin: 0 10px;
+    float: left;
+    z-index: 3;
+    white-space: nowrap;
+    line-height: 42px;
+}
+.title img{
+
+    position: absolute;
+    float: right;
+    top: 50%;
+    right: 10px;
+    margin-top: -7px;
+}
+
+
+.blue_title{
+    background-image: url("../img/wrapper/blue_title.png");
+
+}
+.blue_title h2{
+    color: #ffffff;
+}
+
+.yellow_title{
+    background-image: url("../img/wrapper/Yellow_title.png");
+}
+.yellow_title h2{
+
+    color: #da0606;
+}
+
+.gray_title{
+    background-color: #e9e9e9;
+}
+.gray_title h2{
+    color: #000000;
+}

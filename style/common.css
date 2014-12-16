@@ -111,9 +111,9 @@ body{
     width: 990px;
     margin: 0 auto;
     /*height: 100px;*/
-    background-color: darkgreen;
+    /*background-color: darkgreen;*/
     top:-15px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0 ;
     overflow: hidden;
 }
 .center_content{
@@ -288,19 +288,20 @@ body{
 }
 .content{
     background-color: #ffffff;
+    border-radius:  0 0 10px 10px ;
+    overflow: hidden;
 }
 .content .main{
     margin-top: 1px;
     background:#e9e9e9;
-    min-height: 32px;
+    height: 32px;
     width: 100%;
-    overflow: auto;
+    margin-bottom: 23px;
 }
 .content .main ul{
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow: auto;
     white-space: nowrap;
 }
 .content .main li{
@@ -321,5 +322,84 @@ body{
 .content .main li a:hover{
     color: #dc3838
 }
+.content .main .active{
+    padding:  0 5px;
 
+    background: url("../img/wrapper/menu_active.png") no-repeat;
+    height: 54px;
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+    background-position: 50% 100%;
+    top: -6px;
+}
 
+.content .main .active  a{
+    width: 100%;
+    padding: 0 10px;
+    color: #ffffff;
+    position: relative;
+    top: 6px;
+}
+.content .main .active a:hover{
+    color:  yellow;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.black{
+    color: #000000;
+}
+.red_link{
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.red_link a{
+    color: #ff0000;
+}
+.footer{
+    margin: 0 20px;
+    margin-top: 20px;
+    /*height: 20px;*/
+    /*background-color: #ff0000;*/
+    overflow: hidden;
+}
+.footer>div{
+    width: 100%;
+    /*background-color: #19449b;*/
+    display: block;
+    overflow: hidden;
+}
+.footer ul{
+    list-style: none;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+
+    float: left;
+
+}
+.footer img{
+    float: left;
+}
+.footer ul li{
+    display: inline;
+    font-size: 0.8em;
+    color: #ffffff;
+}
+.footer ul li a{
+    margin: 0 10px;
+    color: #fccb40;
+}
+.footer .left{
+    float: left;
+    margin: 0 40px;
+    color: #ffffff;
+}
+.footer .right{
+    float: right;
+    margin: 0;
+}

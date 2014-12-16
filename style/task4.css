@@ -1,0 +1,136 @@
+.task4{
+    /*background-color: #890817;*/
+    /*height: 890px;*/
+    margin-bottom: 0;
+}
+
+.task4 .left{
+    width: 220px;
+    /*background-color: #1A237E;*/
+    float: left;
+    height: 100%;
+}
+.task4 .left>div{
+    margin-bottom: 20px;
+}
+.task4 .left form{
+    padding: 0 10px;
+    font-size: 0.8em;
+}
+.task4 .left form label{
+    display: block;
+    padding: 0 10px;
+}
+.task4 .left form label{
+    height: 20px;
+    line-height: 20px;
+
+}
+#questions button{
+    display: block;
+    margin: 4px 0;
+    margin-left: 30px;
+    background-image: url('../img/wrapper/task4/task4_button.png');
+    background-repeat: repeat-x;
+    width: 120px;
+    border: none;
+    height: 24px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.partner{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 0.9em;
+}
+.task4 .left .info{
+
+    margin: 5px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f8f8f8;
+}
+.task4 .left .info>*{
+    padding: 0;
+    margin: 0;
+}
+.task4 .left .info >span{
+    color: #dbdbdb;
+}
+.task4 .left .info h3{
+    margin-top: 4px;
+    font-size: 0.9em;
+}
+
+.task4 .center{
+    width: 460px;
+    margin: 0 25px ;
+    /*background-color: #fff20e;*/
+    float: left;
+    height: 100%;
+}
+.task4 .right{
+    float: right;
+    width: 240px;
+    /*background-color: #ffb9e6;*/
+    height: 100%;
+}
+.task4 .right>*{
+    margin-bottom: 30px;
+}
+.task4 .center .img{
+    width: 100%;
+    background-image: url("../img/header/header_main_right.png");
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 460px;
+    height: 60px;
+    margin: 0 auto;
+}
+.task4 .center .title .red_link{
+    right: 10px;
+    position: absolute;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+}
+.task4 .center .title{
+    border-bottom: 1px dotted #000000;
+}
+.task4 .list{
+    margin: 0;
+    padding: 0;
+}
+.task4 .center li{
+
+    margin: 0;
+    margin-top: 20px;
+    min-height: 125px;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+.task4 .center li img{
+    width: 175px;
+    height: 125px;
+    float:  left;
+}
+.task4 .center .list .info{
+    padding: 0 10px;
+    margin: 0 ;
+    float: left;
+    width: 260px;
+    border-bottom: none;
+
+}
+.task4 .center .list .info>*{
+    padding: 0;
+    margin: 0;
+}
+.task4 .task4 .center>div a{
+    color: #98b7e4;
+}
+.task4 .task4_left a{
+    color: #ff0000;
+}
