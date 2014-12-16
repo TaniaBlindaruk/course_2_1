@@ -97,7 +97,7 @@
     font-size: 0.8em;
 }
 .photo .wrapper_photo .coment input{
-    width: 100%;
+    width: 99%;
 }
 .photo .wrapper_photo .coment input::-webkit-input-placeholder {color:#000000;}
 .photo .wrapper_photo .coment input::-moz-placeholder          {color:#000000;}/* Firefox 19+ */
