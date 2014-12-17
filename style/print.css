@@ -1,0 +1,10 @@
+.header,
+.footer,
+.wrapper_top_line,
+.blue-line,
+.main{
+    display: none;
+}
+.task1{
+    padding-top: 10px;
+}
