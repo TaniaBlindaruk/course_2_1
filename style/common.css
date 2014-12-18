@@ -407,6 +407,7 @@ body{
 .blue{
     color: #83a9df;
 }
-.logo{
+.logo, .logo *{
     text-decoration: none;
+    outline: none;
 }

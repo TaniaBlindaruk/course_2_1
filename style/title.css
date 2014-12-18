@@ -23,7 +23,7 @@
     margin-top: -7px;
     width: 15px;
     height: 15px;
-    background: url("../img/wrapper/title_img.png");
+    background: url("../img/wrapper/title_img.png") ;
 }
 /*.title img{*/
 
@@ -36,7 +36,7 @@
 
 
 .blue_title{
-    background-image: url("../img/wrapper/blue_title.png");
+    background: url("../img/wrapper/blue_title.png")  repeat-x;
 
 }
 .blue_title h2{
@@ -44,7 +44,7 @@
 }
 
 .yellow_title{
-    background-image: url("../img/wrapper/Yellow_title.png");
+    background: url("../img/wrapper/Yellow_title.png")  repeat-x;
 }
 .yellow_title h2{
 
